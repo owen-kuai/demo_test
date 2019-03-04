@@ -2,7 +2,7 @@ FROM python:3.6
 
 RUN mkdir /demo_test
 
-WORKDIR /demo
+WORKDIR /demo_test
 
 COPY ./requirements.txt /demo_test
 
